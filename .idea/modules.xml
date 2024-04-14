@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/KotlinReplicationProject.iml" filepath="$PROJECT_DIR$/KotlinReplicationProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TranspilerReplication.iml" filepath="$PROJECT_DIR$/TranspilerReplication.iml" />
     </modules>
   </component>
 </project>
