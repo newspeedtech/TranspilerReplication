@@ -37,3 +37,6 @@ fun arbitraryExpInTemplate(): String {
     val s2 = "${s1.replace("is", "was")}, but now is ${s}"
     return s2
 }
+
+
+fun conditionalAsExpression(a: Int, b: Int) = if (a > b) a else b
