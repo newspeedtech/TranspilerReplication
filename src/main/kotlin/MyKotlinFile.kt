@@ -19,13 +19,10 @@ fun printing() {
     println("Hello world!")
 }
 
-fun functionBodyAsExpression(a: Int, b: Int) = a + b
 
 fun voidReturnValueWithUnit(a: Int, b: Int): Unit {
     println("sum of $a and $b is ${a + b}")
 }
-
-open class Clothing(var size: String, var color: String)
 
 open class Clothing(var size: String, var color: String)
 
@@ -135,3 +132,5 @@ fun automaticCastOneVariable(arg1: Int?): Int? {
         return null
     }
 }
+
+
