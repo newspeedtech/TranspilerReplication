@@ -133,4 +133,32 @@ fun automaticCastOneVariable(arg1: Int?): Int? {
     }
 }
 
+fun arbitraryExpInTemplate(): String {
+    s = 2
+    val s2 = "${s1.replacingOccurrences("is", "was")}, but now is${s}"
+    return s2
+}
+fun arbitraryExpInTemplate(): String {
+    println(s1)
+    s = 2
+    val s2 = "${s1.replacingOccurrences("is", "was")}, but now is ${s}"
+    return s2
+}
+
+fun arbitraryExpInTemplate(): String {
+    s = 2
+    val s2 = "${s1.replace("is", "was")}, but now is ${s}"
+    return s2
+}
+
+for ((index, _) in items.enumerated()) {
+    testValue += index
+}
+
+for (index in items.indices) {
+    testValue += index
+}
+Actual output:
+for ((index,) in items.enumerated()) {
+    te
 

@@ -1,7 +1,7 @@
 package com.transpiler
 
 import org.junit.jupiter.api.Test
-import kotlin.
+import kotlin.test.Test
 
 class SequalskTest {
     @org.junit.jupiter.api.Test
@@ -16,5 +16,8 @@ class SequalskTest {
         assert
         //TODO("Not yet implemented")
     }
+
+    @Test
+
 
 }
